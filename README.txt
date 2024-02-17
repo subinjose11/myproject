@@ -20,3 +20,6 @@ Customer Data Retrieval:
     
 Overall, this project provides a simple functional API for registering job applications 
 and retrieving applicant data from a MySQL database using Flask.
+
+note:
+    The source code is located in a file named app.py within the backendAPI folder.
