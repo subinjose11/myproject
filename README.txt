@@ -1,5 +1,5 @@
 ABOUT MY PROJECT:
-    My project is a simple Flask application designed to handle job applications. 
+    This is a simple Flask application designed to handle job applications. 
     It provides two main functionalities:
 
 Job Application Registration:
