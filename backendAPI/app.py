@@ -48,6 +48,7 @@ def register():
             new_app_no= len(reglist) + 1
         except KeyError as e:
             return jsonify({'error': f'KeyError: {e}'}), 400 
+        
         query = "INSERT INTO regdata (app_no,ename, date_of_birth, email, mobnumber, education, job, experience, resumeurl) VALUES ({},'{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}');".format(new_app_no,new_ename, new_dob, new_email, new_number, new_education, new_job, new_experience, new_rurl)
         cursor.execute(query)
         conn.commit()
