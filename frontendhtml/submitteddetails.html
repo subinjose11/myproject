@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        div p {
+            margin: 10px 0;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your application has been submitted successfully</h1>
+    <h2>Submitted Details</h2>
+    <form>
+        <div>
+            <p>Application no: <span id="app_no"></span></p>
+            <p>Name: <span id="eame"></span></p>
+            <p>Date of Birth: <span id="Date_of_birth"></span></p>
+            <p>Email address: <span id="Email"></span></p>
+            <p>Phone: <span id="mobnumber"></span></p>
+            <p>Education: <span id="education"></span></p>
+            <p>Job: <span id="job"></span></p>
+            <p>Experience: <span id="work_experience"></span></p>
+            <p>Resume Url: <span id="resumeurl"></span></p>        
+        </div>
+        <div class="button">
+            <input type="submit" class="btn" onclick="getCustomers()" value="GetData">
+        </div>
+    </form>
+    <script src="registrationjava.js"></script>
+</body>
+</html>
